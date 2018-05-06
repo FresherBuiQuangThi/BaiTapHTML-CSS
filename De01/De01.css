@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.clear:after{
+    content: '';
+    display: block;
+    clear: both;
+    height: 0;
+    visibility: hidden;
+}
+.post {
+    margin-top: 40px;
+    padding: 0 4px;
+    font-size: 15px;
+}
+
+.comment h4 {
+  text-align: center;
+  font-size: 17px;
+}
+
+.comment {
+  padding: 20px 6px;
+  font-size: 14px;
+}
+
+.comment table input[type="text"] {
+    width: 135px;
+    height: 16px;
+}
+
+.post-info a {
+  -webkit-text-decoration: none;
+  -moz-text-decoration: none;
+  -ms-text-decoration: none;
+  -o-text-decoration: none;
+  text-decoration: none;
+  color: #0c35f1;
+}
+
+p.post-info {
+  margin-left: 90px;
+  padding: 1px 0;
+  font-size: 14px;
+}
+
+
+
+.post-contain {
+  background: #ECECEC;
+  padding: 4px 6px;
+}
+
+.post-contain:after {
+  position: absolute;
+  content: "";
+  width: 0;
+  height: 0;
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  border-top: 15px solid #ECECEC;
+  top: 100%;
+  left: 10%;
+}
+
+.post-contain {
+  position: relative;
+}
+
+.facts .title {
+  background: none;
+}
+
+.facts-contain {
+  list-style: none;
+  margin-left: 60px;
+}
+
+.facts-contain li {
+  padding: 4px 0;
+}
+
+.facts ul li:before {
+  content: url('images/star.png');
+  margin-right: 4px;
+}
+
+.info {
+  margin-left: 15px;
+  height: 100px;
+  width: 100%;
+  overflow: scroll;
+}
+
+.info ul {
+  list-style: none;
+}
+
+.player-info img {
+  width: 100px;
+  height: 90px;
+}
+
+.player-info {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+}
+
+.title {
+  background: url(images/title_bg.gif) repeat-x;
+  height: 25px;
+  line-height: 1.6;
+  font-size: 16px;
+  padding-left: 4px;
+}
+
+div#container {
+  width: 500px;
+  margin: 0 auto;
+  border: 1px solid #0033FF;
+}
+
+body {
+  font-family: Georgia,"Times New Roman", Times, serif;
+}
