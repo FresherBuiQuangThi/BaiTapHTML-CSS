@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+	
+}
+
+.topic-left {
+    width: 450px;
+    float: left;
+}
+
+.title-header {
+	background: url(hinhde03/logo.jpg) no-repeat;
+	 width: 353px;
+	 height: 116px;
+	 position: absolute;
+	 top: 53px;
+	 left: 45px;
+}
+
+.site-title {
+  background: url(hinhde03/logo.jpg) no-repeat;
+  width: 353px;
+  height: 116px;
+  position: absolute;
+  padding-left: 100px;
+  padding-top: 50px;
+  top: 53px;
+  left: 50px;
+}
+
+.nav li a {
+  color: white;
+  font-size: 22px;
+  -webkit-text-decoration: none;
+  -moz-text-decoration: none;
+  -ms-text-decoration: none;
+  -o-text-decoration: none;
+  text-decoration: none;
+  text-align: center;
+  display: block;
+}
+
+.nav {
+  position: absolute;
+  bottom: -57px;
+  left: 68px;
+}
+
+.nav li a span {
+  display: block;
+}
+
+.nav li {
+  display: inline-block;
+  margin-left: 1px;
+}
+
+.nav ul {
+  list-style: none;
+}
+
+.nav {
+  position: absolute;
+  bottom: -57px;
+  left: 68px;
+}
+
+
+.title-text1 {
+	top: 60px;
+	left: 45px;
+}
+
+div#header {
+  background: url(hinhde03/fill_header.jpg);
+  height: 254px;
+  position: relative;
+  margin-bottom: auto;
+}
+
+div#container {
+  background: #121212;
+  color: #505959;
+}
+
+div#main {
+  margin-top: 114px;
+  margin-left: 70px;
+  width: 670px;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  border-bottom: 1px dotted #323232;
+}
+
+div#sidebar {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+  background: #1f1f1f;
+  padding: 50px 35px;
+  height: 60%;
+}
